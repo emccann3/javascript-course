@@ -36,9 +36,9 @@ const koalasAverageScore = calculateAverage(koalasScore1, koalasScore2, koalasSc
 console.log(koalasAverageScore);
 
 if (dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= 100) {
-    console.log("The Dolphins win!!!!");
+    console.log("The Dolphins win 🏆!!!!");
 } else if (koalasAverageScore > dolphinsAverageScore && koalasAverageScore >= 100) {
-    console.log("The Koala's win!!!");
+    console.log("The Koala's win🏆!!!");
 } else if (dolphinsAverageScore === koalasAverageScore && koalasAverageScore >= 100 && dolphinsAverageScore >= 100) {
     console.log("It's a draw!!!!");
 }
@@ -47,5 +47,5 @@ else {
 }
 
 function calculateAverage(x, y, z) {
-    return (x + y + z) / 2;
+    return (x + y + z) / 3;
 }
